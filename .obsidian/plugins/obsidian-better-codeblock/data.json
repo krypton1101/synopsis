@@ -1,0 +1,13 @@
+{
+  "titleBackgroundColor": "#00c0c020",
+  "titleFontColor": "#00ffff",
+  "highLightColor": "#2d82cc20",
+  "excludeLangs": [
+    "mermaid",
+    " col",
+    " desmos-graph"
+  ],
+  "showLineNumber": true,
+  "showDividingLine": false,
+  "showLangNameInTopRight": true
+}

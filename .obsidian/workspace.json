@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "36a4d0c703253c97",
+    "type": "split",
+    "children": [
+      {
+        "id": "f89bf76b67ff93ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "433dab682e220a99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математический анализ/23.04.01(Л).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f24fa386161a3d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bc01edd1f3c5e7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fb4a59b14b9cfb9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf6e05a098f702dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28f5bc5c7f5e125a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0744606bd7836c54",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbbf560603538b13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af362834cd6baeb2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Математический анализ/23.04.01(Л).md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "cb64157f1c1db408",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Математический анализ/23.04.01(Л).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c35947ccf1b2d2d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "080e91b522a13dfc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Математический анализ/23.04.01(Л).md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "433dab682e220a99",
+  "lastOpenFiles": [
+    "Математический анализ/23.04.08(Л).md",
+    "23.04.13().md",
+    "Алгебра и геометрия/23.03.28(Л).md",
+    "Алгебра и геометрия/23.03.14(Л).md",
+    "23.04.12().md",
+    "Алгебра и геометрия/23.04.11(Л).md",
+    "Философия/23.04.11(П).md",
+    "Сети и телекоммуникации/23.04.10(Л).md",
+    "23.04.10().md",
+    "attachments/IMG20230410131046.jpg",
+    "attachments/IMG20230410125623.jpg",
+    "Сети и телекоммуникации/23.04.03(Л).md",
+    "attachments/IMG20230410124408.jpg",
+    "attachments/IMG20230410123150 (1).jpg",
+    "attachments/IMG20230410123150.jpg",
+    "Сети и телекоммуникации/23.03.27(Л).md",
+    "Математический анализ/23.04.08(П).md",
+    "attachments/desmosCache/desmos-graph-851f15a05accb5acfb44efdd5b4b38353b677e58bda7bb2e6c7cbf58b1e5040e.svg",
+    "Математический анализ/23.04.01(Л).md",
+    "attachments/desmosCache/desmos-graph-77236314ba6744e27ac245716ef77f41700131972a1fee8588608edd7285daa2.svg",
+    "attachments/desmosCache/desmos-graph-ba688ae3b7344559e9cb797492c5f1fd68f74adaff82a8dbc2dc8aa8cbd9ca10.svg",
+    "attachments/desmosCache/desmos-graph-0ba7aa3d3d45f096b67958b6f20731d4a18cfd4b90be7f85e5d691917203d2e0.svg",
+    "attachments/desmosCache",
+    "Информатика и программирование/23.04.07(Л).md",
+    "Информатика и программирование/23.03.31(Л).md",
+    "Информатика и программирование/23.03.24(Л).md",
+    "23.04.07().md",
+    "Философия/23.04.07(Л).md",
+    "Философия/23.03.31(Л).md",
+    "Экономика/23.04.07(Л).md",
+    "attachments/IMG20230407110638.jpg",
+    "Экономика/23.03.31(Л).md",
+    "Алгебра и геометрия/23.04.04(П).md",
+    "Теория систем и системный анализ/23.04.04(П).md",
+    "Теория систем и системный анализ/23.04.03(Д).md",
+    "Теория систем и системный анализ/23.03.21(П).md",
+    "Pasted image 20230403194354.png.md",
+    "Информатика и программирование/code/main",
+    "attachments/IMG20230304123038.jpg.KUffKL",
+    "attachments/IMG20230304123038.jpg~",
+    "Информатика и программирование/code/main.cpp",
+    "Информатика и программирование/code/a.out",
+    "Информатика и программирование/code/23.03.24.cpp",
+    "Информатика и программирование/code",
+    "attachments",
+    "DnD person.canvas"
+  ]
+}
