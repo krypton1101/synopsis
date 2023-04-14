@@ -1,60 +1,68 @@
 #include <iostream>
+using namespace std;
 
-struct Node
+#define SIZE 10
+class stack
 {
-	int d;
-	Node *left;
-	Node *right;
+	char *stck;
+	int top, size;
+public:
+	stack(int s);
+	~stack();
+	void push(char ch);
+	char pop();
 };
 
-Node *first(int d);
-void print_tree(Node *root, int l);
-Node *search_insert(Node *root, int d);
+stack::stack(int s)
+{
+	cout << "Constructor works" << endl;
+	top = 0;
+	stck = new char[s];
+	size = s;
+	if(!stck)
+	{
+		cout << "Segfault" << endl;
+		exit(1);
+	}
+}
+stack::~stack()
+{
+	cout << "Destuctor works" << endl;
+	delete stck; //delete *stck; //delete stck[]; //delete []stck;
+}
+void stack::push(char ch)
+{
+	if(top==SIZE)
+	{
+		cout << "Stack is full" << endl;
+		return;
+	}
+	stck[top] = ch;
+	top++;
+}
+char stack::pop()
+{
+	if(!top)
+	{
+		cout << "Stack is empty" << endl;
+		return 0;
+	}
+	//
+	top--;
+	return stck[top];
+}
+
 
 int main()
 {
-	int b[] = {10,25,20,6,21,8,1,30};
-	Node *root = first(b[0]);
-	for(int i=1; i<8; i++) search_insert(root,b[i]);
-	print_tree(root,0);
-	return 0;
-}
+	stack s1,s2;
+	int i;
+	s1.push('a');
+	s2.push('x');
+	s1.push('g');
+	s2.push('v');
+	s1.push('h');
+	s2.push('l');
 
-Node *first(int d)
-{
-	Node *pv = new Node;
-	pv->d = d;
-	pv->left = 0;
-	pv->right = 0;
-	return pv;
-}
-void print_tree(Node *root, int level)
-{
-	if(root)
-	{
-		print_tree(root->left, ++level);
-		for(int i=0;i<level;i++) std::cout << "x";
-		std::cout << root->d << std::endl;
-		print_tree(root->right, ++level);
-	}	
-}
-Node *search_insert(Node *root, int d)
-{
-	Node *pv = root, *prev;
-	bool found = false;
-	while((found&&!pv)||(!found&&pv))//xor
-	{
-		prev = pv;
-		if(d==pv->d) found = true;
-		else if(d<pv->d) pv = pv->left;
-		else pv = pv->right;
-	}
-	if(found) return pv;
-	Node *pnew = new Node;
-	pnew->d = d;
-	pnew->left = 0;
-	pnew->right = 0;
-	if(d<prev->d) prev->left = pnew;
-	else prev->right = pnew;
-	return pnew;
+	cout << s1.pop() << " " << s2.pop() << s2.pop() << s2.pop() << s2.pop() << endl;
 }
