@@ -1,155 +1,49 @@
 #include <iostream>
+using namespace std;
 
-int twoPower(unsigned int n)
+class coord
 {
-	int out = 1;
-	for(int i=0; i<n; i++)
-	{
-		out*=2;
-	}
-	return out;
+	int x,y;
+public:
+	coord() {x=0; y=0;}
+	coord(int x, int y): x(x), y(y) {}
+	void get_xy(int &i, int &j) {i=x; j=y;}
+	coord operator-(); //унарный
+	coord operator-(coord ob); //бинарный
+	coord operator=(coord ob);
+};
+
+coord coord::operator-()
+{
+	x=-x;
+	y=-y;
+	return *this;
 }
-void printNet(char net, int one)
+coord coord::operator-(coord ob)
 {
-	switch(net)
-	{
-		case 'A':
-		{
-			int dots=1;
-			std::cout << "11111111.";
-			while(one>=8)
-			{
-				one-=8;
-				std::cout << "11111111.";
-				dots++;
-			}
-			for(int i=0;i<one;i++)
-			{
-				std::cout<<"1";
-			}
-			for(int i=0;i<8-one;i++)
-			{
-				std::cout<<"0";
-			}
-			while(dots<3)
-			{
-				std::cout << ".00000000";
-				dots++;
-			}
-			std::cout << std::endl;
-			if(one<8) std::cout << "0." << twoPower(8-one) << ".0.1" << std::endl;
-			else if(one<16) std::cout << "0.0." << twoPower(16-one) << ".1" << std::endl;
-			else std::cout << "0.0.0." << twoPower(24-one)+1 << std::endl;
-
-			if(one<8) std::cout << "127." << 255-twoPower(8-one) << "255.254" << std::endl;
-			else if(one>16) std::cout << "127.255." << 255-twoPower(16-one) << ".254" << std::endl;
-			else std::cout << "127.255.255." << 254-twoPower(24-one) << std::endl;
-			break;
-		}
-		case 'B':
-		{
-			int dots=2;
-			std::cout << "11111111.11111111.";
-			while(one>=8)
-			{
-				one-=8;
-				std::cout << "11111111.";
-				dots++;
-			}
-			for(int i=0;i<one;i++)
-			{
-				std::cout<<"1";
-			}
-			for(int i=0;i<8-one;i++)
-			{
-				std::cout<<"0";
-			}
-			while(dots<3)
-			{
-				std::cout << ".00000000";
-				dots++;
-			}
-			std::cout << std::endl;
-			if(one<8) std::cout << "128.0." << twoPower(8-one) << ".1" << std::endl;
-			else std::cout << "128.0.0." << twoPower(16-one)+1 << std::endl;
-
-			if(one<16) std::cout << "191.255." << 255-twoPower(8-one) << ".254" << std::endl;
-			else std::cout << "191.255.255." << 254-twoPower(16-one) << std::endl;
-			break;
-		}
-		case 'C':
-		{
-			std::cout << "11111111.11111111.11111111.";
-			for(int i=0;i<one;i++)
-			{
-				std::cout<<"1";
-			}
-			for(int i=0;i<8-one;i++)
-			{
-				std::cout<<"0";
-			}
-			std::cout << std::endl;
-			std::cout << "192.0.0." << 1+twoPower(8-one) << std::endl;
-			std::cout << "223.255.255." << 254-twoPower(8-one) << std::endl;
-			break;
-		}
-	}
+	x-=ob.x;
+	y-=ob.y;
+	return *this;
 }
-int powerof2(int n)
+coord coord::operator=(coord ob)
 {
-	n+=2;
-	int two=1;
-	for(unsigned int i=0;i<24;i++)
-	{
-		if(n-two<=0)
-		{
-			return i;
-		}
-		two*=2;
-	}
-	return -1;
+	x=ob.x;
+	y=ob.y;
+	return *this;
 }
 
 int main()
 {
-    char NetClass;
-    int subnetCount, machineCount;
-    std::cout << "enter net class(A,B or C): ";
-    std::cin >> NetClass;
-    std::cout << "enter subnet quantity: ";
-    std::cin >> subnetCount;
-    std::cout << "enter max computer quantity: ";
-    std::cin >> machineCount;
-    
-	int free;
-	switch(NetClass)
-	{
-		case 'A':
-		{
-			free = 24;
-			break;
-		}
-		case 'B':
-		{
-			free = 16;
-			break;
-		}
-		case 'C':
-		{
-			free = 8;
-			break;
-		}
-		default:
-		{
-			std::cout << "Incorrect net class." << std::endl;
-			return 0;
-		}
-	}
-	if(twoPower(free-powerof2(subnetCount))<machineCount)
-	{
-		std::cout << "Unable to set this configuration of subnets." << std::endl;
-		return 0;
-	}
-	printNet(NetClass, powerof2(subnetCount));
+	coord ob1(10,10), ob2(20,30);
+	ob1 = ob1 - ob2;
+	int i,j;
+	ob1.get_xy(i, j);
+	cout << i << " " << j << endl;
+	ob1 = -ob1;
+	ob1.get_xy(i, j);
+	cout << i << " " << j << endl;
+	ob1 = ob2;
+	ob1.get_xy(i, j);
+	cout << i << " " << j << endl;
 	return 0;
 }
