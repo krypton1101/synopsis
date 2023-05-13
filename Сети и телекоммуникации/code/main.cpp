@@ -3,31 +3,38 @@ using namespace std;
 
 class Base
 {
-protected:
 	int x;
 public:
-	void set_x(int n) {x=n;}
-	void show_x() {cout << x;}
+	Base(int x) : x(x) {}
+	//void show() {cout << "x = " << x << endl;}
 };
 
-class Derived : public Base
+class Derived1 : virtual public Base
 {
 	int y;
 public:
-	void set_y(int n) {y=n;}
-	void show_y() {cout << y;}
-	//void Base::set_x(int n);
+	Derived1(int x) : Base(x) {}
+	//void show() {cout << "y = " << y << endl;}
+};
+
+class Derived2 : virtual public Base
+{
+	int y;
+public:
+	Derived2(int x) : Base(x) {}
+	//void show() {cout << "y = " << y << endl;}
+};
+
+class Derived3 : public Derived1, public Derived2
+{
+	int z;
+public:
+	Derived3(int x) : Derived1(x), Derived2(x) {}
+
+// 	void showZ() {cout << "z = " << z << endl;}
 };
 
 int main()
 {
-	Derived ob;
-	ob.set_x(10);
-	ob.show_x();
-	ob.set_y(20);
-	ob.show_y();
-	Base ob1;
-	ob1.set_x(10);
-	ob1.show_x();
 	return 0;
 }
