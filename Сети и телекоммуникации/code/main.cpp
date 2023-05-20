@@ -1,40 +1,44 @@
 #include <iostream>
 using namespace std;
 
-class Base
+class base
 {
-	int x;
 public:
-	Base(int x) : x(x) {}
-	//void show() {cout << "x = " << x << endl;}
+	int i;
+	base(int x) {i=x;}
+	//virtual void func() {}//cout << "base func() i=" << i << endl;}
 };
 
-class Derived1 : virtual public Base
+class derived1: public base
 {
-	int y;
 public:
-	Derived1(int x) : Base(x) {}
-	//void show() {cout << "y = " << y << endl;}
+	derived1(int x): base(x) {}
+	void func() {cout << "derived1 func() i^2=" << i*i << endl;}
 };
 
-class Derived2 : virtual public Base
+class derived2: public base
 {
-	int y;
 public:
-	Derived2(int x) : Base(x) {}
-	//void show() {cout << "y = " << y << endl;}
-};
-
-class Derived3 : public Derived1, public Derived2
-{
-	int z;
-public:
-	Derived3(int x) : Derived1(x), Derived2(x) {}
-
-// 	void showZ() {cout << "z = " << z << endl;}
+	derived2(int x): base(x) {}
+	void func() {cout << "derived2 func() i*2=" << i+i << endl;}
 };
 
 int main()
 {
+	derived1 *p;
+	base ob(10);
+	derived1 ob1(10);
+	derived2 ob2(10);
+	// p = &ob; p->func();
+	// p = &ob1; p->func();
+	// p = &ob2; p->func();
+	int i,j;
+	for(i=0; i<10; i++)
+	{
+		j=rand();
+		if(j%2) p=&ob1;
+		else p=&ob2;
+		p->func();
+	}
 	return 0;
 }
