@@ -1,44 +1,23 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
-class base
+template <class X>
+int find(X object, X* list, int size)
 {
-public:
 	int i;
-	base(int x) {i=x;}
-	//virtual void func() {}//cout << "base func() i=" << i << endl;}
-};
-
-class derived1: public base
-{
-public:
-	derived1(int x): base(x) {}
-	void func() {cout << "derived1 func() i^2=" << i*i << endl;}
-};
-
-class derived2: public base
-{
-public:
-	derived2(int x): base(x) {}
-	void func() {cout << "derived2 func() i*2=" << i+i << endl;}
-};
+	for(i=0; i<size; i++)
+	{
+		if(object == list[i]) return i;
+	}
+	return -1;
+}
 
 int main()
 {
-	derived1 *p;
-	base ob(10);
-	derived1 ob1(10);
-	derived2 ob2(10);
-	// p = &ob; p->func();
-	// p = &ob1; p->func();
-	// p = &ob2; p->func();
-	int i,j;
-	for(i=0; i<10; i++)
-	{
-		j=rand();
-		if(j%2) p=&ob1;
-		else p=&ob2;
-		p->func();
-	}
+	int a[] = {1,2,3,4,5,6,7};
+	char *c = "Check";
+	double b[] = {0.1, 0.2, 1.5, 2.0, 3.33};
+	cout << find(3, a, 7) << " " << find('h', c, (int)strlen(c)) << " " << find(.0, b, 5) << endl;
 	return 0;
 }
