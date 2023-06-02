@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "36a4d0c703253c97",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d8c24e0a2d0d016",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1f7d6f6cc851d98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Философия/23.06.02(Л).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f24fa386161a3d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bc01edd1f3c5e7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fb4a59b14b9cfb9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf6e05a098f702dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28f5bc5c7f5e125a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "87813f243c5025b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 212.5086555480957
+  },
+  "right": {
+    "id": "0744606bd7836c54",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbbf560603538b13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af362834cd6baeb2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Философия/23.06.02(Л).md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "cb64157f1c1db408",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Философия/23.06.02(Л).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "1c35947ccf1b2d2d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "080e91b522a13dfc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Философия/23.06.02(Л).md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "e1f7d6f6cc851d98",
+  "lastOpenFiles": [
+    "Философия/23.02.10(Л).md",
+    "Философия/23.06.02(Л).md",
+    "Философия/23.05.26(Л).md",
+    "Экономика/23.04.21(Л).md",
+    "Экономика/23.04.28(Л).md",
+    "Экономика/23.05.12(Л).md",
+    "Экономика/23.03.17(Л).md",
+    "Экономика/23.04.07(Л).md",
+    "Экономика/23.05.05(Л).md",
+    "Экономика/23.02.17(Л).md",
+    "Экономика/23.02.10(Л).md",
+    "Экономика/23.03.03(Л).md",
+    "Экономика/23.03.10(Л).md",
+    "Информатика и программирование/23.06.02(Л).md",
+    "Информатика и программирование/23.05.26(Л).md",
+    "Алгебра и геометрия/23.05.30(П).md",
+    "Алгебра и геометрия/23.05.23(Л).md",
+    "Алгебра и геометрия/23.05.16(П).md",
+    "Теория систем и системный анализ/23.05.30(П).md",
+    "Теория систем и системный анализ/Проблема.md",
+    "Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.md",
+    "Теория систем и системный анализ/23.05.29(Д).md",
+    "Теория систем и системный анализ/23.05.16(П).md",
+    "Математический анализ/23.05.28(Д).md",
+    "Математический анализ/23.05.27(Л).md",
+    "Сети и телекоммуникации/23.05.29(Л).md",
+    "Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.png",
+    "attachments/V1jsJNBRRmg.jpg",
+    "attachments/Y_4bsx6Apio.jpg",
+    "attachments/table0.png",
+    "attachments/DA8UPZhpsIg.jpg",
+    "Excalidraw",
+    "attachments/IMG20230424124343.jpg",
+    "attachments/IMG20230417131032.jpg",
+    "attachments/IMG20230417125057.jpg",
+    "attachments/IMG20230417124556.jpg",
+    "attachments/IMG20230417122753.jpg",
+    "attachments/desmosCache",
+    "Информатика и программирование/code/main",
+    "attachments/IMG20230304123038.jpg.KUffKL",
+    "attachments/IMG20230304123038.jpg~",
+    "Информатика и программирование/code/main.cpp",
+    "Информатика и программирование/code/a.out",
+    "Информатика и программирование/code/23.03.24.cpp",
+    "Информатика и программирование/code",
+    "attachments",
+    "DnD person.canvas"
+  ]
+}
