@@ -1,23 +1,20 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
-
-template <class X>
-int find(X object, X* list, int size)
+void Xhandler()
 {
-	int i;
-	for(i=0; i<size; i++)
+	try
 	{
-		if(object == list[i]) return i;
+		throw 0;
 	}
-	return -1;
+	catch(int) {cout << "Throw char*\n"; throw;}
 }
 
 int main()
 {
-	int a[] = {1,2,3,4,5,6,7};
-	char *c = "Check";
-	double b[] = {0.1, 0.2, 1.5, 2.0, 3.33};
-	cout << find(3, a, 7) << " " << find('h', c, (int)strlen(c)) << " " << find(.0, b, 5) << endl;
+	try
+	{
+		Xhandler();
+	}
+	catch(int) {cout << "Main char *" << endl;}
 	return 0;
 }
