@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8d8c24e0a2d0d016",
+        "id": "4d4d3a42469975dd",
         "type": "tabs",
         "children": [
           {
-            "id": "e1f7d6f6cc851d98",
+            "id": "67d55fa791cd13be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Философия/23.06.02(Л).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -33,7 +29,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5fb4a59b14b9cfb9",
+            "id": "d0562981a019c209",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,14 +54,6 @@
             }
           },
           {
-            "id": "28f5bc5c7f5e125a",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "87813f243c5025b4",
             "type": "leaf",
             "state": {
@@ -77,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5086555480957
+    "width": 200
   },
   "right": {
     "id": "0744606bd7836c54",
@@ -93,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Философия/23.06.02(Л).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Философия/23.06.02(Л).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,18 +118,55 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Философия/23.06.02(Л).md"
-              }
+              "state": {}
             }
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "50a64d02bb122e88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e47c58e728f53f5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7474356903092989,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,40 +179,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1f7d6f6cc851d98",
+  "active": "67d55fa791cd13be",
   "lastOpenFiles": [
-    "Философия/23.02.10(Л).md",
-    "Философия/23.06.02(Л).md",
-    "Философия/23.05.26(Л).md",
-    "Экономика/23.04.21(Л).md",
-    "Экономика/23.04.28(Л).md",
-    "Экономика/23.05.12(Л).md",
-    "Экономика/23.03.17(Л).md",
-    "Экономика/23.04.07(Л).md",
-    "Экономика/23.05.05(Л).md",
-    "Экономика/23.02.17(Л).md",
-    "Экономика/23.02.10(Л).md",
-    "Экономика/23.03.03(Л).md",
-    "Экономика/23.03.10(Л).md",
+    "Информатика и программирование/23.02.17(Л).md",
+    "Информатика и программирование/23.02.16(П).md",
+    "Информатика и программирование/23.02.10(Л).md",
+    "Информатика и программирование/23.02.09(П).md",
+    "Информатика и программирование/23.04.14(Л).md",
+    "Информатика и программирование/23.04.07(Л).md",
+    "Информатика и программирование/23.03.10(Л).md",
+    "Информатика и программирование/23.03.17(Л).md",
     "Информатика и программирование/23.06.02(Л).md",
     "Информатика и программирование/23.05.26(Л).md",
-    "Алгебра и геометрия/23.05.30(П).md",
-    "Алгебра и геометрия/23.05.23(Л).md",
-    "Алгебра и геометрия/23.05.16(П).md",
-    "Теория систем и системный анализ/23.05.30(П).md",
+    "Информатика и программирование/23.05.19(Л).md",
+    "Информатика и программирование/23.05.12(Л).md",
+    "Информатика и программирование/23.05.05(Л).md",
+    "Информатика и программирование/23.03.03(Л).md",
+    "Философия/Учение о познании и сознании.md",
+    "Информатика и программирование/23.04.21(Л).md",
     "Теория систем и системный анализ/Проблема.md",
-    "Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.md",
-    "Теория систем и системный анализ/23.05.29(Д).md",
-    "Теория систем и системный анализ/23.05.16(П).md",
-    "Математический анализ/23.05.28(Д).md",
-    "Математический анализ/23.05.27(Л).md",
-    "Сети и телекоммуникации/23.05.29(Л).md",
-    "Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.png",
+    "Теория систем и системный анализ/Практика, ДЗ/23.03.03(Л).md",
+    "Философия/Современная западная философия.md",
+    "Информатика и программирование/23.03.24(Л).md",
+    "Информатика и программирование/23.03.31(Л).md",
+    "Информатика и программирование/23.04.28(Л).md",
+    "Информатика и программирование/23.06.09(Л).md",
+    "Экономика/Налоговая система государства.md",
+    "Экономика/Финансовая система государства.md",
+    "Экономика/23.05.05(Л).md",
+    "Философия/Практика",
+    "templates",
+    "Теория систем и системный анализ/Практика, ДЗ",
+    "Математический анализ/Практика",
+    "Математический анализ/book-ma.pdf",
+    "attachments/Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.png",
     "attachments/V1jsJNBRRmg.jpg",
     "attachments/Y_4bsx6Apio.jpg",
     "attachments/table0.png",
     "attachments/DA8UPZhpsIg.jpg",
-    "Excalidraw",
+    "attachments/Excalidraw",
     "attachments/IMG20230424124343.jpg",
     "attachments/IMG20230417131032.jpg",
     "attachments/IMG20230417125057.jpg",
@@ -199,11 +227,6 @@
     "Информатика и программирование/code/main",
     "attachments/IMG20230304123038.jpg.KUffKL",
     "attachments/IMG20230304123038.jpg~",
-    "Информатика и программирование/code/main.cpp",
-    "Информатика и программирование/code/a.out",
-    "Информатика и программирование/code/23.03.24.cpp",
-    "Информатика и программирование/code",
-    "attachments",
     "DnD person.canvas"
   ]
 }
