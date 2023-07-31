@@ -1,7 +1,5 @@
 ---
-creation date:
+date: {{date}}
+tag: theory
 ---
 
-
----
-#theory %%lecture theme here ->%%

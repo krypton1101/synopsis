@@ -2,10 +2,7 @@
   "livePreview": true,
   "defaultViewMode": "preview",
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-US",
-    "ru"
-  ],
+  "spellcheckLanguages": null,
   "rightToLeft": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "attachments",

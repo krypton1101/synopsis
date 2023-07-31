@@ -1,8 +1,5 @@
 ---
-creation date:
+date: {{date}}
+tag: homework
 ---
 
-
-
----
-#homework %%homework theme here ->%%
