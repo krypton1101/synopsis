@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67d55fa791cd13be",
+            "id": "6f445bca454d2878",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/homework.md",
+                "file": "Стартап и основы проектной деятельности/Стартап компании в предпринимательской деятельности.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/homework.md",
+                "file": "Стартап и основы проектной деятельности/Стартап компании в предпринимательской деятельности.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/homework.md",
+                "file": "Стартап и основы проектной деятельности/Стартап компании в предпринимательской деятельности.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -120,29 +120,12 @@
             }
           },
           {
-            "id": "080e91b522a13dfc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "templates/homework.md"
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "50a64d02bb122e88",
-        "type": "tabs",
-        "children": [
-          {
             "id": "4e47c58e728f53f5",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "templates/homework.md",
+                "file": "Стартап и основы проектной деятельности/Стартап компании в предпринимательской деятельности.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,9 +148,26 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7474356903092989,
+                  "scale": 0.8170638291627063,
                   "close": true
                 }
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "50a64d02bb122e88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "080e91b522a13dfc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Стартап и основы проектной деятельности/Стартап компании в предпринимательской деятельности.md"
               }
             }
           }
@@ -187,11 +187,24 @@
       "switcher:Open quick switcher": false
     }
   },
-  "active": "67d55fa791cd13be",
+  "active": "4e47c58e728f53f5",
   "lastOpenFiles": [
+    "Управление личными финансами/Основы экономических и финансовых знаний.md",
+    "Стартап и основы проектной деятельности/Стартап компании в предпринимательской деятельности.md",
+    "Стартап и основы проектной деятельности",
+    "Объектно-ориентированное программирование/Вводная.md",
+    "Операционные системы/Вводная.md",
+    "attachments/Excalidraw/Drawing 2023-09-05 10.36.36.excalidraw.md",
+    "Управление личными финансами",
+    "Межкультурное взаимодействие/Вводная.md",
+    "Межкультурное взаимодействие",
+    "Операционные системы",
+    "Теория вероятностей и математическая статистика/Вводная.md",
+    "Объектно-ориентированное программирование",
+    "Теория вероятностей и математическая статистика",
+    "templates/homework.md",
     "templates/lecture.md",
     "templates/practice.md",
-    "templates/homework.md",
     "Информатика и программирование/23.06.09(Л).md",
     "Информатика и программирование/23.02.16(П).md",
     "Алгебра и геометрия/Плоскость и кривая в пространстве. Виды уравнений..md",
@@ -208,33 +221,20 @@
     "Информатика и программирование/23.05.12(Л).md",
     "Информатика и программирование/23.05.05(Л).md",
     "Информатика и программирование/23.03.03(Л).md",
-    "Философия/Учение о познании и сознании.md",
-    "Информатика и программирование/23.04.21(Л).md",
-    "Теория систем и системный анализ/Проблема.md",
-    "Теория систем и системный анализ/Практика, ДЗ/23.03.03(Л).md",
-    "Философия/Современная западная философия.md",
-    "Информатика и программирование/23.03.24(Л).md",
-    "Информатика и программирование/23.03.31(Л).md",
     "Философия/Практика",
     "templates",
     "Теория систем и системный анализ/Практика, ДЗ",
     "Математический анализ/Практика",
-    "Математический анализ/book-ma.pdf",
     "attachments/Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.png",
     "attachments/V1jsJNBRRmg.jpg",
     "attachments/Y_4bsx6Apio.jpg",
     "attachments/table0.png",
     "attachments/DA8UPZhpsIg.jpg",
-    "attachments/Excalidraw",
     "attachments/IMG20230424124343.jpg",
     "attachments/IMG20230417131032.jpg",
     "attachments/IMG20230417125057.jpg",
     "attachments/IMG20230417124556.jpg",
     "attachments/IMG20230417122753.jpg",
-    "attachments/desmosCache",
-    "Информатика и программирование/code/main",
-    "attachments/IMG20230304123038.jpg.KUffKL",
-    "attachments/IMG20230304123038.jpg~",
     "DnD person.canvas"
   ]
 }
