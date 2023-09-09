@@ -1,66 +1,17 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"Алгебра и геометрия\"",
+      "query": "path:attachments  ",
       "color": {
         "a": 1,
         "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:\"Информатика и программирование\"",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:\"Математический анализ\"",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "path:\"Основы математической обработки информации\"",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "path:\"Сети и телекоммуникации\"",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "path:\"Теория систем и системный анализ\"",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "path:Философия",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:Экономика",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
       }
     }
   ],

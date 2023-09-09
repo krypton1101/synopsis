@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d8c24e0a2d0d016",
+        "id": "6367a6617cf1b1ff",
         "type": "tabs",
         "children": [
           {
-            "id": "e1f7d6f6cc851d98",
+            "id": "3ca35e75d6886be6",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Теория вероятностей и математическая статистика/Определение вероятности. Комбинаторика.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -29,7 +35,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5fb4a59b14b9cfb9",
+            "id": "d0562981a019c209",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -54,14 +60,6 @@
             }
           },
           {
-            "id": "28f5bc5c7f5e125a",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "87813f243c5025b4",
             "type": "leaf",
             "state": {
@@ -73,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5086555480957
+    "width": 200
   },
   "right": {
     "id": "0744606bd7836c54",
@@ -122,80 +120,110 @@
             }
           },
           {
+            "id": "4e47c58e728f53f5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Теория вероятностей и математическая статистика/Определение вероятности. Комбинаторика.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.00809585816779687,
+                  "close": true
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "50a64d02bb122e88",
+        "type": "tabs",
+        "children": [
+          {
             "id": "080e91b522a13dfc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
+              "state": {
+                "file": "Теория вероятностей и математическая статистика/Определение вероятности. Комбинаторика.md"
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "switcher:Open quick switcher": false
     }
   },
-  "active": "e1f7d6f6cc851d98",
+  "active": "3ca35e75d6886be6",
   "lastOpenFiles": [
-    "Информатика и программирование/23.06.02(Л).md",
-    "23.09.09().md",
-    "23.09.03().md",
-    "Информатика и программирование/23.05.26(Л).md",
-    "Информатика и программирование/23.05.19(Л).md",
-    "Информатика и программирование/23.05.12(Л).md",
-    "Информатика и программирование/23.05.05(Л).md",
-    "Информатика и программирование/23.04.28(Л).md",
-    "Информатика и программирование/23.04.14(Л).md",
-    "Информатика и программирование/23.04.07(Л).md",
-    "Информатика и программирование/23.03.03(Л).md",
-    "Информатика и программирование/23.02.10(Л).md",
-    "Алгебра и геометрия/23.02.14(Л).md",
-    "23.09.02().md",
-    "23.08.23().md",
-    "23.08.19().md",
-    "23.08.22().md",
-    "Математический анализ/23.03.11(Л).md",
+    "Философия/23.02.10(Л).md",
+    "Философия/23.06.02(Л).md",
+    "Философия/23.05.26(Л).md",
+    "Экономика/23.04.21(Л).md",
+    "Экономика/23.04.28(Л).md",
+    "Экономика/23.05.12(Л).md",
+    "Экономика/23.03.17(Л).md",
+    "Экономика/23.04.07(Л).md",
+    "Экономика/23.05.05(Л).md",
     "Экономика/23.02.17(Л).md",
-    "Информатика и программирование/23.02.09(П).md",
-    "Информатика и программирование/23.02.17(Л).md",
-    "23.06.09().md",
-    "Сети и телекоммуникации/23.02.13(Л).md",
-    "Сети и телекоммуникации/23.04.03(Л).md",
-    "Сети и телекоммуникации/23.02.20(Л).md",
-    "Теория систем и системный анализ/23.03.21(П).md",
+    "Экономика/23.02.10(Л).md",
+    "Экономика/23.03.03(Л).md",
+    "Экономика/23.03.10(Л).md",
+    "Информатика и программирование/23.06.02(Л).md",
+    "Информатика и программирование/23.05.26(Л).md",
+    "Алгебра и геометрия/23.05.30(П).md",
+    "Алгебра и геометрия/23.05.23(Л).md",
+    "Алгебра и геометрия/23.05.16(П).md",
+    "Теория систем и системный анализ/23.05.30(П).md",
+    "Теория систем и системный анализ/Проблема.md",
+    "Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.md",
+    "Теория систем и системный анализ/23.05.29(Д).md",
+    "Теория систем и системный анализ/23.05.16(П).md",
+    "Математический анализ/23.05.28(Д).md",
+    "Математический анализ/23.05.27(Л).md",
+    "Сети и телекоммуникации/23.05.29(Л).md",
     "Excalidraw/Drawing 2023-05-16 11.07.00.excalidraw.png",
     "attachments/V1jsJNBRRmg.jpg",
     "attachments/Y_4bsx6Apio.jpg",
-    "attachments/table0.png",
     "attachments/DA8UPZhpsIg.jpg",
-    "Excalidraw",
     "attachments/IMG20230424124343.jpg",
     "attachments/IMG20230417131032.jpg",
     "attachments/IMG20230417125057.jpg",
     "attachments/IMG20230417124556.jpg",
-    "attachments/IMG20230417122753.jpg",
-    "attachments/desmosCache",
-    "Информатика и программирование/code/main",
-    "attachments/IMG20230304123038.jpg.KUffKL",
-    "attachments/IMG20230304123038.jpg~",
-    "Информатика и программирование/code/main.cpp",
-    "Информатика и программирование/code/a.out",
-    "Информатика и программирование/code/23.03.24.cpp",
-    "Информатика и программирование/code",
-    "attachments",
     "DnD person.canvas"
   ]
 }
