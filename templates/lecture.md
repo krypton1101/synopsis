@@ -2,4 +2,3 @@
 date: {{date}}
 tag: theory
 ---
-
