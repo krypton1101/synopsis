@@ -1,67 +1,54 @@
 {
   "main": {
-    "id": "36a4d0c703253c97",
+    "id": "2961524e43f23327",
     "type": "split",
     "children": [
       {
-        "id": "0b6e6f2f4a14822b",
+        "id": "65ac508d1768df65",
         "type": "tabs",
         "children": [
           {
-            "id": "ac1066c9f058c7d9",
+            "id": "d9019f1dffab4c77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ДЗ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43c1d893dc9035f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Закон больших чисел.md",
+                "file": "Объектно-ориентированное программирование/Структуры.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5f24fa386161a3d2",
+    "id": "f756acd63657abb5",
     "type": "split",
     "children": [
       {
-        "id": "7bc01edd1f3c5e7f",
+        "id": "e096639ef9ff6ae2",
         "type": "tabs",
         "children": [
           {
-            "id": "5fb4a59b14b9cfb9",
+            "id": "70093b065161f921",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "cf6e05a098f702dd",
+            "id": "b2c38ba259f9dc26",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "функция распределения",
+                "query": "выборк",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "87813f243c5025b4",
+            "id": "8a9e65f219fd481d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,66 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5086555480957
+    "width": 300
   },
   "right": {
-    "id": "0744606bd7836c54",
+    "id": "fd409f980ed7975b",
     "type": "split",
     "children": [
       {
-        "id": "dbbf560603538b13",
+        "id": "9e3b49acb92a7e02",
         "type": "tabs",
         "children": [
           {
-            "id": "ba1f7ab50f05e8dc",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "d7a8764fd36cbb3d",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Закон больших чисел.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": true,
-                  "showAttachments": true,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.8518676510332678,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "9e3eae1cbc142d91",
+            "id": "1a9e1b38ade1fba7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Закон больших чисел.md",
+                "file": "Объектно-ориентированное программирование/Структуры.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,19 +97,19 @@
             }
           },
           {
-            "id": "c9824810a23452fd",
+            "id": "2b283a24ca0d85b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Закон больших чисел.md",
+                "file": "Объектно-ориентированное программирование/Структуры.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "24cd5c16d89b73f7",
+            "id": "754e20c191bd778b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -176,7 +120,7 @@
             }
           },
           {
-            "id": "b5f74232ff4b28c6",
+            "id": "e3e5837f05bf7f76",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -186,28 +130,12 @@
             }
           },
           {
-            "id": "b094a76e71346652",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Закон больших чисел.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a580368e1573831d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "080e91b522a13dfc",
+            "id": "7ecedbe65b0dc8b5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Закон больших чисел.md"
+                "file": "Объектно-ориентированное программирование/Структуры.md"
               }
             }
           }
@@ -215,68 +143,34 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "43c1d893dc9035f0",
+  "active": "d9019f1dffab4c77",
   "lastOpenFiles": [
-    "attachments/IMG20231110144209.jpg",
-    "attachments/IMG20231110143621.jpg",
-    "Закон больших чисел.md",
-    "attachments/IMG20231110144003.jpg",
-    "attachments/IMG20231110142802.jpg",
-    "Теория вероятностей и математическая статистика/Законы распределения.md",
-    "attachments/IMG20231110135422.jpg",
-    "attachments/IMG20231110142343.jpg",
-    "attachments/IMG20231110140827.jpg",
-    "attachments/IMG20231110142023.jpg",
-    "attachments/IMG20231110141741.jpg",
-    "attachments/IMG20231110141359.jpg",
-    "attachments/IMG20231110140627.jpg",
-    "Дифференциальные уравнения/Дифференциальные уравнения высших порядков.md",
-    "attachments/seminar4(8) (1).pdf",
-    "Теория вероятностей и математическая статистика/Свойства случайных величин.md",
-    "Операционные системы/Файловая система ОС.md",
-    "Операционные системы/Кэширование данных.md",
-    "Дифференциальные уравнения/ДУ 1го порядка неразрешенные относительно производной.md",
-    "Дифференциальные уравнения/практика/23.10.27(Fr).md",
-    "Дифференциальные уравнения/! Виды дифференциальных уравнений.md",
-    "Дифференциальные уравнения/Филиппов А.Ф. Сборник задач по дифференциальным уравнениям (2000).pdf",
-    "Дифференциальные уравнения/Уравнения полных дифференциалов.md",
-    "Дифференциальные уравнения/Линейные уравнения первого порядка.md",
-    "23.11.03(Fr).md",
-    "Дифференциальные уравнения/практика/23.10.24(Tu).md",
-    "Дифференциальные уравнения/практика/23.10.20(Fr).md",
-    "ДЗ.md",
-    "Дифференциальные уравнения/практика/23.10.31(Tu).md",
-    "Технологии программирования для сети Internet/Обмен данными.md",
-    "Технологии программирования для сети Internet/Обработка текстовых данных.md",
-    "Объектно-ориентированное программирование/Основные приницпы ООП.md",
-    "Объектно-ориентированное программирование/Инкапсуляция.md",
-    "Теория вероятностей и математическая статистика/пратика/23.10.30(Mo).md",
-    "Теория вероятностей и математическая статистика/пратика/seminar5(8).pdf",
+    "Теория вероятностей и математическая статистика/Закон больших чисел.md",
     "Теория вероятностей и математическая статистика/пратика/23.10.16(Mo).md",
+    "Теория вероятностей и математическая статистика/пратика/23.10.09(Mo).md",
+    "Теория вероятностей и математическая статистика/пратика/23.09.28(Th).md",
+    "Теория вероятностей и математическая статистика/пратика/23.09.25(Mo).md",
+    "Теория вероятностей и математическая статистика/пратика/23.09.18(Mo).md",
+    "Теория вероятностей и математическая статистика/пратика/23.09.11(Mo).md",
+    "Теория вероятностей и математическая статистика/пратика/23.09.10(Su).md",
+    "Теория вероятностей и математическая статистика/Определение вероятности. Комбинаторика.md",
     "Теория вероятностей и математическая статистика/пратика/23.10.23(Mo).md",
-    "Теория вероятностей и математическая статистика/пратика/seminar4(8) (1).pdf",
-    "Теория вероятностей и математическая статистика/Непрерывные случайные величины.md",
-    "Операционные системы/Синхронизация процессов.md",
-    "attachments/desmosCache",
-    "attachments/seminar3(8).pdf",
-    "Дифференциальные уравнения/практика",
-    "Дифференциальные уравнения/Решение квазиоднородных уравнений.pdf",
-    "Философия/Практика",
-    "Управление личными финансами",
-    "DnD person.canvas"
+    "Теория вероятностей и математическая статистика/пратика/23.10.30(Mo).md",
+    "Теория вероятностей и математическая статистика/Случайные величины.md",
+    "Теория вероятностей и математическая статистика/Законы распределения.md"
   ]
 }
