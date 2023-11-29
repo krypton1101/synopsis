@@ -83,3 +83,83 @@ $y=C_{1}e^{\lambda_{1} x}+\dots+C_{n}e^{\lambda_{n} x}$
 > $\lambda_{1}=0\quad \lambda_{2}=1\quad \lambda_{3}=-1$
 > Частные решения: $0\quad e^{x}\quad e^{-x}$
 
+Комплексно-сопряженные числа
+$5+5i\quad 5-5i$
+
+В решениях характеристического уравнения комплексные решения всегда парные - комплексно-сопряженные.
+
+$\alpha \pm \beta x,\quad \alpha,\beta\in \mathbb{R}$
+$\lambda_{1}=\alpha+\beta i$
+$\lambda_{2}=\alpha-\beta i$
+$e^{\lambda_{1} x}=e^{\alpha x}e^{i\beta x}=e^{\alpha x}(\cos{\beta x}+ i\sin{\beta x})$
+$e^{\lambda_{2} x}=e^{\alpha x}e^{-i\beta x}=e^{\alpha x}(\cos{\beta x}- i\sin{\beta x})$
+$\frac{e^{\lambda_{1} x}+e^{\lambda_{2} x}}{2} =e^{\alpha x}\cos{\beta x}$
+$\frac{e^{\lambda_{1} x}-e^{\lambda_{2} x}}{2i} =e^{\alpha x}\sin{\beta x}$
+
+> [!example] Пример
+> $$\begin{align*}
+y'''+4y''+5y'=0\\
+\lambda^{3}+4\lambda^{2}+5\lambda=0\\
+\lambda(\lambda^{2}+4\lambda+5)=0\\
+\lambda_{1}=0\\
+\lambda^{2}+4\lambda+5=0\\
+D=16-4\cdot5=-4\\
+\lambda_{2}=\frac{-4-\sqrt{-4}}{2}=-2-i\\
+\lambda_{3}=-2+i\\
+y=C_{1}+e^{-2x}\cos{x}\cdot C_{2}+C_{3}\cdot e^{-2x}\sin{x}
+\end{align*}$$
+
+Если корень $\lambda_{k}$ кратности $m_{k}$, то каждому такому корню соответствуют $m_{k}$ частных решений определенного вида.
+$e^{\lambda_{k} x},xe^{\lambda_{k}x},\dots,x^{m_{k}-1}e^{\lambda_{k}x}$
+
+> [!example] Пример
+> $$\begin{align*}
+y'''-3y''+3y'-y=0\\
+\lambda^{3}-3\lambda^{2}+3\lambda-1=0\\
+(\lambda-1)^{3}=0\\
+\lambda=1\text{ кратности }3\\
+y=C_{1}e^{x}+C_{2}xe^{x}+C_{3}x^{2}e^{x}=(C_{1}+C_{2}x+C_{3}x^{2})e^{x}
+\end{align*}$$
+
+$y^{(n)}+a_{1}y^{(n-1)}+\dots+a_{n}y=f(x)$
+В общем случае решение - сумма общего решения однородного уравнения и частного решения, подобранного по правой части неоднородного уравнения.
+
+Все записи $P_{k}, \tilde{P_{k}},Q_{k},\tilde{Q_{k}}$ - некоторые многочлены.
+
+| Вид $f(x)$                                                  | Специальные условия                                                                            | Вид частного решения                                                     |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| $P_{m}(x)$                                                  | 1. 0 не является корнем характеристического уравнения 2. 0 является корнем. И он кратности $S$ | 1. $\tilde{P_{m}}(x)$ 2. $x^S\tilde{P}_{m}(x)$                           |
+| $e^{\alpha x}P_{m}(x)$                                      | 1. $\alpha$ - не корень характеристического уравнения 2. $\alpha$ - корень кратности $S$       | 1. $e^{\alpha x}\tilde{P}_{m}(x)$ 2. $x^{S}\tilde{P}_{m}(x)e^{\alpha x}$ |
+| $e^{\alpha x}(P_{m}(x)\cos{\beta x}+Q_{n}(x)\sin{\beta x})$ | 1. $\alpha\pm i\beta$ - не корень характеристического уравнения 2. $\alpha\pm i\beta$ - корень кратности $S$                            | 1. $e^{\alpha x}(P_{k}(x)\cos{\beta x}+Q_{k}(x)\sin{\beta x})$, $k=\max(m,n)$ 2. $x^{S}e^{\alpha x}(P_{k}(x)\cos{\beta x}+Q_{k}(x)\sin{\beta x})$, $k=\max(m,n)$                                                                        |
+
+> [!example] Пример
+> $$\begin{align*}
+y''-y=e^{x}(x^{2}-1)\\
+y''-y=0\\
+\lambda^{2}-1=0\\
+\lambda_{1}=1\\
+\lambda_{2}=-1\\
+y_{о.о.}=C_{1}e^{x}+C_{2}e^{-x}\\
+y_{о.н.}=y_{о.о.}+y_{ч.н.}\\
+\text{Случай 2 по таблице}\\
+\alpha=1\quad P_{m}(x)=x^{2}-1,\;m=2
+y_{ч.н.}=x(ax^{2}+bx+c)e^{x}=e^{x}(ax^{3}+bx^{2}+cx)\\
+y'=e^{x}(3ax^{2}+2bx+c)e^{x}+e^{x}(ax^{3}+bx^{2}+cx)=e^{x}(ax^{3}+(3a+b)x^{2}+(2b+c)x+c)\\
+y''=(3ax^{2}+(6a+2b)x+(ab+c))e^{x}+e^{x}(ax^{3}+(3a+b)x^{2}+(2b+c)x+c))=\\
+=(ax^{3}+(6a+b)x^{2}+(6a+4b+c)x+2b+2c)e^x\\
+\text{Подставляем }y_{ч.н.}\text{ и }y''\text{ в исходное уравнение}\\
+6ax^{2}+(6a+4b)x+2b+2b+2c=x^{2}-1\\
+\begin{cases}
+6a=1\\
+6a+4b=0\\
+2b+2c=-1
+\end{cases}\\
+\begin{cases}
+a=\frac{1}{6}\\
+b=\frac{-1}{4}\\
+c=\frac{-1}{4}
+\end{cases}\\
+y_{ч.н.}=e^{x}(\frac{x^{3}}{6}-\frac{x^{2}}{4}-\frac{x}{4})\\
+y_{о.н.}=C_{1}e^{x}+C_{2}e^{-x}+e^{x}(\frac{x^{3}}{6}-\frac{x^{2}}{4}-\frac{x}{4})
+\end{align*}$$
+
