@@ -659,7 +659,7 @@ body {
     --color-orange: #FFA657;
     --color-yellow: #d29922;
     --color-cyan: #A5D6FF;
-    --color-blue: #6CB6FF;
+    --color-blue: #08ADDD;
     --color-purple: #D2A8FF;
     --color-pink: #f778ba;
 
@@ -696,12 +696,12 @@ body {
 
     --inline-code-background: #6e768166;
     --h-color-theme: var(--color-blue);
-    --h1-color-theme: var(--color-blue);
-    --h2-color-theme: var(--color-blue);
-    --h3-color-theme: var(--color-blue);
-    --h4-color-theme: var(--color-blue);
-    --h5-color-theme: var(--color-blue);
-    --h6-color-theme: var(--color-blue);
+    --h1-color-theme: #08ADDD;
+    --h2-color-theme: #18ADCD;
+    --h3-color-theme: #28ADBD;
+    --h4-color-theme: #38ADAD;
+    --h5-color-theme: #48AD9D;
+    --h6-color-theme: #58AD8D;
     --background-modifier-hover-alpha: 0.12;
     --color-btn-primary-bg: #238636;
     --color-btn-primary-hover-bg: #2ea043;
@@ -885,12 +885,12 @@ body.callout-on .callout-content p {
 
 /* Headers */
 body.headers-one-color {
-    --h1-color: var(--h-color-theme);
-    --h2-color: var(--h-color-theme);
-    --h3-color: var(--h-color-theme);
-    --h4-color: var(--h-color-theme);
-    --h5-color: var(--h-color-theme);
-    --h6-color: var(--h-color-theme);
+    --h1-color: var(--h1-color-theme);
+    --h2-color: var(--h2-color-theme);
+    --h3-color: var(--h3-color-theme);
+    --h4-color: var(--h4-color-theme);
+    --h5-color: var(--h5-color-theme);
+    --h6-color: var(--h6-color-theme);
 }
 
 /* Kanban-common */
