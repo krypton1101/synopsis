@@ -1,4 +1,5 @@
 ---
-date: {{date}}
-tag: theory
+date: 
+tags:
+  - theory
 ---
