@@ -1,4 +1,5 @@
 ---
-date: {{date}}
-tag: practice
+date: 
+tags:
+  - practice
 ---

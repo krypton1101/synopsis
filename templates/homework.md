@@ -1,4 +1,5 @@
 ---
-date: {{date}}
-tag: homework
+date: 
+tags:
+  - homework
 ---
