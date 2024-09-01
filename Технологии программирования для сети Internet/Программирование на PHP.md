@@ -1,5 +1,5 @@
 ---
-date: 05.10.2023
+date: 2023-10-05
 tags:
   - theory
   - internet_programming_techniques

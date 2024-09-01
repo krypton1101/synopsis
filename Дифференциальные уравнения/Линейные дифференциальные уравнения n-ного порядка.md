@@ -1,5 +1,5 @@
 ---
-date: 22.11.2023
+date: 2023-11-22
 tags:
   - theory
   - differential_equations
