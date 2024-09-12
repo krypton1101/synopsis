@@ -1,55 +1,54 @@
 {
   "main": {
-    "id": "2961524e43f23327",
+    "id": "3c0c9039de872997",
     "type": "split",
     "children": [
       {
-        "id": "d7853b78b27f46de",
+        "id": "9200dae52003aa25",
         "type": "tabs",
         "children": [
           {
-            "id": "c67a675df7d8d4eb",
+            "id": "293377d575073051",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Ссылки.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f756acd63657abb5",
+    "id": "060ccbea64b7e0d3",
     "type": "split",
     "children": [
       {
-        "id": "e096639ef9ff6ae2",
+        "id": "40dcc67a479aa8c2",
         "type": "tabs",
         "children": [
           {
-            "id": "70093b065161f921",
+            "id": "824fee1ec0342400",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "b2c38ba259f9dc26",
+            "id": "86d9e9ce0e18872d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +58,7 @@
             }
           },
           {
-            "id": "8a9e65f219fd481d",
+            "id": "67f6712cfab2637c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "fd409f980ed7975b",
+    "id": "2d8a3fa0d573d6b1",
     "type": "split",
     "children": [
       {
-        "id": "9e3b49acb92a7e02",
+        "id": "d1ce0d37db222d00",
         "type": "tabs",
         "children": [
           {
-            "id": "1a9e1b38ade1fba7",
+            "id": "777a4337f1daf37e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -98,7 +97,7 @@
             }
           },
           {
-            "id": "2b283a24ca0d85b8",
+            "id": "af7ff5f6557663f3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -110,7 +109,7 @@
             }
           },
           {
-            "id": "754e20c191bd778b",
+            "id": "dee3f2c163410846",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,7 +120,7 @@
             }
           },
           {
-            "id": "e3e5837f05bf7f76",
+            "id": "80eb06374696d7c6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -133,7 +132,7 @@
             }
           },
           {
-            "id": "7ecedbe65b0dc8b5",
+            "id": "5d6e68ae2c1dc0cd",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -142,8 +141,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,60 +150,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "c67a675df7d8d4eb",
-  "lastOpenFiles": [
-    "Введение в программную инженерию/Управление изменениями в проекте. Управление качеством проекта.md",
-    "Ссылки.md",
-    "ДЗ.md",
-    "Введение в программную инженерию/Информационное обеспечение ПО.md",
-    "Введение в программную инженерию/Внедрение и сопровождение ИС.md",
-    "Введение в программную инженерию/Визуальное моделирование при анализе и проектировании. Основы Unified Modeling Language.md",
-    "Введение в программную инженерию/Введение.md",
-    "Объектно-ориентированное программирование/Вводная лекции.md",
-    "Сети и телекоммуникации/Обобщенная задача коммутации.md",
-    "Сети и телекоммуникации/Архитектура, стандартизация и классификация сетей.md",
-    "Тайм-менеджмент/Понятие времени, история времени.md",
-    "Тайм-менеджмент/Методы поиска потерь рабочего времени.md",
-    "Тайм-менеджмент/Значение фактора времени в жизни современного человека.md",
-    "Тайм-менеджмент/Биологические ритмы и работоспособность.md",
-    "Введение в программную инженерию/Тестирование программного обеспечения.md",
-    "Введение в программную инженерию/Проектирование и разработка интерфейса программного обеспечения.md",
-    "attachments/htmlimage(1).png",
-    "Значение фактора времени в жизни современного человека.md",
-    "Untitled 1.md",
-    "Операционные системы/Функциональные компоненты ОС.md",
-    "Операционные системы/Управление памятью. Виртуализация памяти.md",
-    "Операционные системы/Архитектура ОС.md",
-    "Введение в программную инженерию/Технология управления требованиями.md",
-    "Дифференциальные уравнения/Линейные дифференциальные уравнения n-ного порядка.md",
-    "Информатика и программирование/23.04.28(Л).md",
-    "Информатика и программирование/23.03.17(Л).md",
-    "Информатика и программирование/23.02.09(П).md",
-    "attachments/IMG20240319134833.jpg",
-    "attachments/htmlimage.png",
-    "Бесполезности",
-    "Тайм-менеджмент",
-    "Введение в программную инженерию",
-    "Информационные системы",
-    "attachments/IMG20231215143034.jpg",
-    "attachments/IMG20231215142642.jpg",
-    "attachments/IMG_20231208_150810.jpg",
-    "attachments/IMG_20231208_150324.jpg",
-    "attachments/IMG20231208145754.jpg",
-    "attachments/IMG20231208145204.jpg",
-    "attachments/IMG20231208144713.jpg",
-    "Дифференциальные уравнения/Филиппов А.Ф. Сборник задач по дифференциальным уравнениям (2000).pdf",
-    "Дифференциальные уравнения/Решение квазиоднородных уравнений.pdf",
-    "Математическая статистика/Практика",
-    "Математическая статистика"
-  ]
+  "active": "293377d575073051",
+  "lastOpenFiles": []
 }
