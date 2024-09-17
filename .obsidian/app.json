@@ -14,5 +14,5 @@
     "downscalePercent": 75
   },
   "autoPairMarkdown": true,
-  "showRibbon": false
+  "showRibbon": true
 }
