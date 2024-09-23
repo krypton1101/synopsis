@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Критерий согласия.md",
+                "file": "Интеллектуальный анализ данных/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Критерий согласия.md",
+                "file": "Интеллектуальный анализ данных/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Критерий согласия.md",
+                "file": "Интеллектуальный анализ данных/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Критерий согласия.md"
+                "file": "Интеллектуальный анализ данных/Untitled.md"
               }
             }
           },
@@ -172,23 +172,31 @@
   },
   "active": "7b7b0949808b8c06",
   "lastOpenFiles": [
-    "attachments/Excalidraw/Drawing 2024-09-17 14.39.24.excalidraw.md",
-    "Критерий согласия.md",
-    "Методы прикладной статистики/Критерии проверки выборок на соответствие нормальному распределению.md",
-    "Методы прикладной статистики/Проверка статистических гипотез.md",
-    "Методы прикладной статистики/Средние величины.md",
-    "Проектирование информационных систем/Разработка модели БД ИС средствами IDEF1x.md",
     "Интеллектуальный анализ данных/Задачи Data Mining. Классификация и кластеризация.md",
+    "Интеллектуальный анализ данных/Untitled.md",
+    "Математическое обеспечение интеллектуальных систем/Операции над нечеткими множествами.md",
     "Математическое обеспечение интеллектуальных систем/Нечеткая логика.md",
-    "Ссылки.md",
-    "Интеллектуальный анализ данных/Вводная.md",
-    "Математическое обеспечение интеллектуальных систем/Untitled.md",
-    "Математическая экономика/Решение задач.md",
     "Математическая экономика/Математическое моделирование.md",
+    "attachments/IMG20240920150912.jpg",
+    "attachments/IMG20240920150237.jpg",
+    "attachments/desmosCache/desmos-graph-7803945f7ccf2e409f6159822915e6db311792993ca0de6dabb0a9461667b704.svg",
+    "attachments/desmosCache/desmos-graph-76573f6458593dbf16cd7f69538e53888c39b4d9353895289032f7128a66421d.svg",
+    "attachments/desmosCache/desmos-graph-1bbe15660fbb60e3b542dcf2fa1ddcd62feda7656210ee4f5bb8d88566197121.svg",
+    "attachments/desmosCache/desmos-graph-c0c4e6bbda44f68655a72d4dc673e9a5357c6f74cfa8841e728767e2d923ffd2.svg",
+    "attachments/desmosCache/desmos-graph-d491eabf0654d4d967d92bc76728ff3da5c4cc25a1c66131b611ab2c5f0070a9.svg",
+    "attachments/desmosCache/desmos-graph-80235b9d97e6612ac3640b74c46072d29ec05665b31d4519d5b72b2b2b6952b9.svg",
+    "attachments/desmosCache/desmos-graph-5ec77e2276dfe95eebfde862e07ae416218f04242068ff48311dc112dc392d4a.svg",
+    "Методы прикладной статистики/Критерий согласия.md",
+    "Методы прикладной статистики/Критерии проверки выборок на соответствие нормальному распределению.md",
+    "Методы прикладной статистики/Средние величины.md",
+    "Методы прикладной статистики/Математическая статистика.md",
+    "Ссылки.md",
+    "attachments/Excalidraw/Drawing 2024-09-17 14.39.24.excalidraw.md",
+    "Методы прикладной статистики/Проверка статистических гипотез.md",
+    "Проектирование информационных систем/Разработка модели БД ИС средствами IDEF1x.md",
+    "Интеллектуальный анализ данных/Вводная.md",
+    "Математическая экономика/Решение задач.md",
     "attachments/desmosCache/desmos-graph-9666442fd5f0bedd5a34e8b28b8a059d6ba0ef8cf15852c9d7a09f58001d2348.svg",
-    "attachments/desmosCache/desmos-graph-12e54398f9565b8c1582139598658cee9f8b0638498407c49b8f83507060f815.svg",
-    "attachments/desmosCache/desmos-graph-68769beff129592d57f0e93a2541199a1795f5be67c14abaf238b48869e718df.svg",
-    "attachments/desmosCache/desmos-graph-dee127221ee24fd7ad5ace8be5303636616e5b714555384d7e56d61f0412d82b.svg",
     "Математическая экономика/Вводная.md"
   ]
 }
