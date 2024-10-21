@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19e5840a554f27c9",
+            "id": "d630f836b9a348b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Непараметрические критерии.md",
+                "file": "Интеллектуальный анализ данных/Применение ИАД в бизнесе.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Применение ИАД в бизнесе"
             }
           }
         ],
@@ -40,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -63,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -87,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Непараметрические критерии.md",
+                "file": "Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +103,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Ссылки"
             }
           },
           {
@@ -104,10 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Непараметрические критерии.md",
+                "file": "Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ссылки"
             }
           },
           {
@@ -118,7 +130,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -130,7 +144,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -139,8 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Непараметрические критерии.md"
-              }
+                "file": "Ссылки.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ссылки"
             }
           },
           {
@@ -148,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -170,20 +190,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19e5840a554f27c9",
+  "active": "d630f836b9a348b8",
   "lastOpenFiles": [
-    "Непараметрические критерии.md",
-    "Математическая статистика/Математическая статистика.md",
-    "Проектирование информационных систем/Моделирование бизнес-процессов.md",
-    "Применение ИАД в бизнесе.md",
-    "Интеллектуальный анализ данных/Нейронные сети.md",
+    "Математическое обеспечение интеллектуальных систем/Факторный, дискриминантный и кластерный анализ.md",
     "Математическое обеспечение интеллектуальных систем/Нечеткие и лингвистические переменные.md",
+    "Ссылки.md",
     "Математическая экономика/Решение задач.md",
+    "Математическая экономика/Примеры моделей производства.md",
+    "Математическая статистика/Математическая статистика.md",
+    "Интеллектуальный анализ данных/Применение ИАД в бизнесе.md",
+    "Методы прикладной статистики/Непараметрические критерии.md",
+    "Проектирование информационных систем/Моделирование бизнес-процессов.md",
+    "Интеллектуальный анализ данных/Нейронные сети.md",
     "attachments/desmosCache/desmos-graph-8413f23b169553e92135d195a22dc85997ee1be5b0e7ee61f8a6bec4bfe92e9f.svg",
     "attachments/desmosCache/desmos-graph-a10bc7fd52166aa083fda683fe191565a4e42d55bb864a616f963d0c1e5318db.svg",
     "attachments/desmosCache/desmos-graph-ed4697b5d637feeba7e635e52d590bea6d362d7d3e0a239632a4e67ef81aa603.svg",
     "attachments/desmosCache/desmos-graph-c3fd90bc611b20bb530773a8c2d92f536b6b8b36512e14bbf39b6ea83dcc7fd4.svg",
-    "Математическая экономика/Примеры моделей производства.md",
     "Математическая экономика/Математическое моделирование.md",
     "Методы прикладной статистики/Сравнение выборочной средней и исправленной выборочной дисперсии с гипотетическими данными нормальной совокупности.md",
     "Методы прикладной статистики/Сравнение двух дисперсий нормальных генеральных совокупностей.md",
@@ -204,9 +226,7 @@
     "attachments/desmosCache/desmos-graph-d86015f4a5a91acfe1a91f9138f5577434e23ff7e23e68c365d02085a3e30c01.svg",
     "attachments/desmosCache/desmos-graph-317c059521e1164d385f225abdab1bfef8cda77e9660030c31becff0bc9ad21a.svg",
     "Методы прикладной статистики/Средние величины.md",
-    "Ссылки.md",
     "Интеллектуальный анализ данных/Вводная.md",
-    "Интеллектуальный анализ данных/Задачи Data Mining. Классификация и кластеризация.md",
-    "Интеллектуальный анализ данных/Untitled.md"
+    "Интеллектуальный анализ данных/Задачи Data Mining. Классификация и кластеризация.md"
   ]
 }
