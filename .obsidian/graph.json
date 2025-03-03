@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": true,
@@ -11,12 +11,12 @@
       "query": "path:attachments  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14549506
       }
     }
   ],
-  "collapse-display": true,
-  "showArrow": true,
+  "collapse-display": false,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
@@ -25,6 +25,6 @@
   "repelStrength": 13.3217993079585,
   "linkStrength": 1,
   "linkDistance": 293,
-  "scale": 0.06555029315471181,
+  "scale": 0.10592797808798139,
   "close": false
 }

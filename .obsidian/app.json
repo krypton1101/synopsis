@@ -13,6 +13,5 @@
     "margin": "0",
     "downscalePercent": 75
   },
-  "autoPairMarkdown": true,
-  "showRibbon": true
+  "autoPairMarkdown": true
 }
